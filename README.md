@@ -6,7 +6,7 @@ An vanilla example of Server-side rendered React app with Node.
 
 ## Dependencies
 
-Our goal is to use the minimal configuration so it is up to you extend the ecosystem. The current dependencies are just:
+Our goal is to use minimal configuration so it is up to you extend the ecosystem. The current dependencies are just:
 
 ### Server
 * express
