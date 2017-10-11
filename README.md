@@ -22,6 +22,8 @@ Our goal is to use minimal configuration so it is up to you extend the ecosystem
 
 git clone https://github.com/ahlechandre/react-universal
 
+cd react-universal
+
 ## Installs all dependencies.
 yarn install
 
