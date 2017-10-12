@@ -12,6 +12,9 @@ const babelRcClient = {
       },
     ],
   ],
+  plugins: [
+    'transform-object-rest-spread',
+  ],
 };
 const babelRcServer = {
   presets: [
@@ -26,6 +29,9 @@ const babelRcServer = {
       },
     ],
   ],
+  plugins: [
+    'transform-object-rest-spread',
+  ],  
 };
 
 const babelLoaderClient = {
