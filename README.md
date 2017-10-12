@@ -13,8 +13,8 @@ Our goal is to use minimal configuration so it is up to you extend the ecosystem
 
 ### Shared
 * webpack
-* babel-loader, babel-core, babel-preset-env, babel-preset-react
-* react, react-dom
+* babel-loader, babel-core, babel-preset-env, babel-preset-react and babel-plugin-transform-object-rest-spread.
+* react, react-dom and prop-types.
 
 ## Usage
 
