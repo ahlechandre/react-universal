@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./build/server.js",
-    "build": "webpack",
+    "start": "node ./build/server",
+    "build": "webpack --env development --progress",
+    "build:production": "webpack --env production --progress",
     "clear": "rm -rf static build"
   },
   "author": "Alexandre Thebaldi",

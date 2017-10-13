@@ -23,7 +23,7 @@ const renderPage = (req, res, preloaded) => {
     <body>
       <div id="root">${AppString}</div>
       <script>window.__PRELOADED_DATA__ = ${JSON.stringify(preloaded)};</script>
-      <script src="./js/bundle.js"></script>
+      <script src="./main.js"></script>
     </body>
     </html>
     `;
