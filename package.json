@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./build/server",
-    "build": "webpack --env development --progress",
-    "build:production": "webpack --env production --progress",
-    "clear": "rm -rf static build"
+    "build": "./node_modules/.bin/webpack --env development --progress",
+    "build:production": "./node_modules/.bin/webpack --env production --progress",
+    "clear": "rm -rf build static",
+    "start": "node ./build/server"
   },
   "author": "Alexandre Thebaldi",
   "license": "MIT",
